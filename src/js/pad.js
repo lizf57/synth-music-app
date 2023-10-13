@@ -70,6 +70,7 @@ export class Pad {
         this.xPosition = this.clamp(e.offsetX / this.pad.offsetWidth)
         this.yPosition = this.clamp(e.offsetY / this.pad.offsetHeight)
         this.setPuckStyle()
+
     }
 
     clamp(value){
